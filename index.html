@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="하루 한 걸음 앱의 개인정보처리방침. 기기 내 기록 보관, 선택 권한, 백업 및 삭제 방법을 안내합니다.">
+  <meta name="theme-color" content="#f7f8f4">
+  <title>개인정보처리방침 · 하루 한 걸음</title>
+  <style>
+    :root { color-scheme: light; --ink:#263c34; --muted:#586b63; --accent:#36664d; --line:#dce5dc; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; scroll-padding-top:24px; }
+    body { margin:0; background:#f7f8f4; color:var(--ink); font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic",sans-serif; font-size:17px; line-height:1.85; word-break:keep-all; overflow-wrap:anywhere; }
+    a { color:var(--accent); text-underline-offset:4px; }
+    a:focus-visible { outline:3px solid var(--accent); outline-offset:5px; border-radius:2px; }
+    .skip { position:absolute; top:-100px; left:20px; background:white; padding:8px 16px; }
+    .skip:focus { top:12px; }
+    .wrap { max-width:840px; margin:auto; padding:0 28px; }
+    header { padding:64px 0 32px; }
+    .brand { font-weight:700; letter-spacing:.04em; color:var(--accent); }
+    .mark { display:inline-grid; place-items:center; width:36px; height:36px; background:#e3edde; border-radius:12px; margin-right:10px; }
+    h1 { font-size:clamp(30px,6vw,44px); line-height:1.3; letter-spacing:-.045em; margin:28px 0 14px; }
+    .lead { color:var(--muted); margin:0; }
+    .date { font-size:14px; color:var(--muted); margin-top:16px; }
+    .summary { background:#eaf0e5; border:1px solid #d8e3d1; border-radius:20px; padding:24px 28px; margin:12px 0 28px; }
+    .summary strong { display:block; font-size:20px; margin-bottom:8px; }
+    .summary p { margin:0; }
+    nav { border-block:1px solid var(--line); padding:20px 0; margin-bottom:12px; }
+    nav ol { columns:2; gap:32px; padding-left:24px; margin:8px 0; font-size:15px; }
+    nav li { break-inside:avoid; padding:3px 0; }
+    section { padding:24px 0; border-bottom:1px solid var(--line); }
+    h2 { font-size:22px; line-height:1.5; letter-spacing:-.025em; margin:0 0 16px; }
+    p { margin:12px 0; }
+    ul { padding-left:24px; }
+    li + li { margin-top:8px; }
+    .note { color:var(--muted); font-size:15px; }
+    .contact { background:white; border:1px solid var(--line); border-radius:16px; padding:20px 24px; }
+    .contact p { margin:4px 0; }
+    footer { padding:32px 0 48px; color:var(--muted); font-size:14px; }
+    @media(max-width:540px) { .wrap { padding:0 20px; } header { padding-top:36px; } nav ol { columns:1; } .summary { padding:20px; } }
+    @media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
+    @media print { body { background:white; font-size:11pt; } header { padding-top:0; } nav,.skip,.top { display:none; } section { break-inside:avoid; } a { color:inherit; } }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#content">본문 바로가기</a>
+  <div class="wrap" id="top">
+    <header>
+      <div class="brand"><span class="mark" aria-hidden="true">↗</span>하루 한 걸음</div>
+      <h1>개인정보처리방침</h1>
+      <p class="lead">나의 하루를 기록하는 공간.<br>기록이 어디에 보관되고 어떻게 관리되는지 안내합니다.</p>
+      <p class="date">시행일 · <time datetime="2026-10-21">2026년 10월 21일</time> / 최종 수정일 · <time datetime="2026-10-21">2026년 10월 21일</time></p>
+    </header>
+    <main id="content">
+      <aside class="summary" aria-label="핵심 안내">
+        <strong>앱의 기록은 사용자의 기기에 보관됩니다.</strong>
+        <p>하루 한 걸음은 별도의 회원가입이나 운영 서버 없이 동작합니다. 앱은 인터넷 권한, 광고 SDK 및 이용 분석 SDK를 사용하지 않으며, 입력한 기록을 운영자에게 전송하지 않습니다.</p>
+      </aside>
+      <p>아메(이하 “운영자”)는 하루 한 걸음 Android 앱(이하 “앱”)의 개인정보 처리 방식을 다음과 같이 안내합니다. 이 방침은 앱과 이 개인정보처리방침 안내 페이지에 적용됩니다.</p>
+      <nav aria-label="목차">
+        <strong>목차</strong>
+        <ol>
+          <li><a href="#data">처리하는 정보와 목적</a></li>
+          <li><a href="#permissions">선택 기능과 접근 권한</a></li>
+          <li><a href="#storage">보관 기간과 보호 조치</a></li>
+          <li><a href="#sharing">제3자 제공 및 외부 서비스</a></li>
+          <li><a href="#deletion">이용자의 권리와 삭제 방법</a></li>
+          <li><a href="#children">아동의 개인정보</a></li>
+          <li><a href="#contact">운영자 및 문의</a></li>
+          <li><a href="#changes">방침의 변경</a></li>
+        </ol>
+      </nav>
+      <section id="data">
+        <h2>1. 처리하는 정보와 목적</h2>
+        <p>앱은 사용자가 선택하여 입력하거나 불러온 정보를 기기에서 처리하여 기록·조회·계획·백업 기능을 제공합니다.</p>
+        <ul>
+          <li><strong>일상 기록:</strong> 활동, 목표, 일정, 완료 이력, 다이어리, 메모, 스티커 및 선택한 이미지.</li>
+          <li><strong>마음·건강 관련 기록:</strong> 기분, 에너지, 관찰 항목, 마음일기, 진료 전후 메모, 위기 대처 계획 및 지원 연락처 등 사용자가 직접 입력한 내용. 건강 등 민감한 내용이 포함될 수 있으므로 필요한 범위에서 입력해 주세요.</li>
+          <li><strong>생활비 기록:</strong> 사용자가 입력한 예산, 지출 및 관련 메모.</li>
+          <li><strong>앱 설정과 보안 정보:</strong> 표시·맞춤 설정, 잠금 설정 및 암호화·인증에 필요한 정보.</li>
+          <li><strong>선택한 캘린더 정보:</strong> 캘린더 이름·계정 식별 정보, 일정 제목·시작 및 종료 시각·종일 여부·일정 식별자. 기기에 있는 Google 캘린더 일정을 앱에서 표시하고 활동과 연결하는 데 사용합니다.</li>
+        </ul>
+        <p>운영자는 앱을 통해 이름, 전화번호, 이메일, 위치, 광고 식별자 또는 기기 내 기록을 서버로 수집하지 않습니다. 사용자가 문의 이메일을 보내는 경우의 정보 처리는 제7항을 따릅니다.</p>
+      </section>
+      <section id="permissions">
+        <h2>2. 선택 기능과 접근 권한</h2>
+        <ul>
+          <li><strong>캘린더 읽기:</strong> 사용자가 캘린더 연동을 켜고 권한을 허용한 경우에 사용합니다. Android의 캘린더 제공자를 통해 선택한 캘린더를 읽으며, 앱이 원본 Google 캘린더 일정을 수정하거나 삭제하지 않습니다. 앱 설정에서 연동을 끄거나 Android 설정에서 권한을 철회할 수 있습니다.</li>
+          <li><strong>생체 인증:</strong> 사용자가 지문 등 생체 인증 잠금 해제를 설정한 경우 Android의 인증 기능을 사용합니다. 앱과 운영자는 지문 이미지나 생체 인증 원본 정보를 수집·보관하지 않습니다.</li>
+          <li><strong>이미지 및 파일 선택:</strong> 사용자가 시스템 선택 화면에서 고른 이미지나 백업 파일을 읽거나, 지정한 위치에 백업·이미지를 저장합니다.</li>
+        </ul>
+        <p>선택 기능을 사용하지 않아도 해당 기능을 제외한 앱의 기본 기록 기능을 이용할 수 있습니다.</p>
+      </section>
+      <section id="storage">
+        <h2>3. 보관 기간과 보호 조치</h2>
+        <p>앱 내부 기록은 사용자가 삭제하거나 앱 데이터를 삭제할 때까지 기기에 보관됩니다. 앱 제거 시 내부 데이터가 삭제될 수 있습니다. 운영자는 내부 기록의 사본을 보관하지 않으므로 대신 복구해 드릴 수 없습니다.</p>
+        <p>앱은 내부 기록 암호화, Android Keystore를 이용한 키 보호, 앱 잠금 및 사용자가 선택하는 생체 인증 기능을 제공합니다. 기기 자동 백업과 기기 간 이전에서는 앱 데이터를 제외하도록 설정되어 있습니다.</p>
+        <p>백업·복원은 사용자가 직접 실행합니다. 복원 전 데이터로 되돌리기 기능을 위해 가장 최근 복원 직전의 암호화된 복구본을 기기 내부에 보관할 수 있습니다.</p>
+        <p>사용자가 별도로 저장한 암호화 백업이나 내보낸 이미지는 앱 외부에 남습니다. 내보낸 이미지는 일반 이미지 파일이므로 저장 위치와 공유 범위를 직접 관리해 주세요. 백업의 보관 기간과 삭제 여부 역시 사용자가 관리합니다.</p>
+      </section>
+      <section id="sharing">
+        <h2>4. 제3자 제공 및 외부 서비스</h2>
+        <p>운영자는 앱의 기록을 외부 서버로 전송하거나 제3자에게 제공·판매하지 않습니다. 앱 기록의 서버 처리 위탁, 광고 추적 및 이용 분석을 하지 않습니다.</p>
+        <p>사용자가 시스템 파일 선택 화면에서 클라우드 저장소를 선택하거나 파일을 다른 서비스로 공유하면 해당 서비스에서 파일이 처리될 수 있으며, 그 서비스의 개인정보처리방침이 적용됩니다. 기기의 Google 계정과 캘린더 동기화는 Android 및 Google 서비스의 설정에 따라 이루어집니다.</p>
+        <p>이 안내 페이지는 GitHub Pages로 제공됩니다. 앱의 내부 기록과 별개로, 페이지 접속 시 GitHub는 보안 및 서비스 운영을 위해 방문자의 IP 주소를 수집·기록할 수 있습니다. 자세한 내용은 <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub 개인정보처리방침</a>을 참고해 주세요. 이 페이지에는 별도의 분석 도구, 광고, 입력 양식 또는 외부 웹폰트를 넣지 않았습니다.</p>
+      </section>
+      <section id="deletion">
+        <h2>5. 이용자의 권리와 삭제 방법</h2>
+        <ul>
+          <li><strong>열람·수정:</strong> 앱의 각 기록 화면에서 자신의 기록을 확인하거나 수정할 수 있습니다.</li>
+          <li><strong>기록 삭제:</strong> 개별 기록의 삭제 기능 또는 설정 → 데이터 및 개인정보 → 기록 전체 삭제를 이용할 수 있습니다. 기록 전체 삭제는 앱 설정, 기본 제공 스티커 및 Google 캘린더 원본을 삭제하지 않습니다.</li>
+          <li><strong>앱 내부 데이터 전체 삭제:</strong> 복구본과 설정을 포함한 내부 데이터를 제거하려면 Android 설정 → 앱 → 하루 한 걸음 → 저장공간에서 데이터 삭제를 이용할 수 있습니다. 메뉴 이름은 기기에 따라 다를 수 있습니다.</li>
+          <li><strong>외부 파일 삭제:</strong> 별도로 저장한 백업·이미지와 클라우드 사본은 해당 저장 위치에서 직접 삭제해야 합니다.</li>
+          <li><strong>권한 철회:</strong> Android 설정 → 앱 → 하루 한 걸음 → 권한에서 캘린더 접근 권한을 변경할 수 있습니다.</li>
+        </ul>
+        <p>운영자는 기기에 저장된 기록에 접근할 수 없습니다. 기록 삭제나 권한 변경에 도움이 필요하면 아래 이메일로 문의해 주세요.</p>
+      </section>
+      <section id="children">
+        <h2>6. 아동의 개인정보</h2>
+        <p>앱은 회원가입이나 서버를 통한 개인정보 수집을 하지 않으며, 아동의 개인정보를 운영자에게 보내도록 요구하지 않습니다. 보호자는 기기의 접근 권한과 파일 공유·백업 설정을 함께 확인하고 관리할 수 있습니다.</p>
+      </section>
+      <section id="contact">
+        <h2>7. 운영자 및 문의</h2>
+        <div class="contact">
+          <p><strong>운영자 / 개인정보 관련 문의 담당자:</strong> 아메</p>
+          <p><strong>이메일:</strong> <a href="mailto:ameforcreate@gmail.com">ameforcreate@gmail.com</a></p>
+        </div>
+        <p>문의 시 이메일 주소와 문의 내용을 문의 확인·답변 목적으로 처리합니다. 문의 처리가 완료되면 관련 정보를 삭제하며, 후속 문의 대응이 필요한 경우 그 목적이 끝날 때까지 보관합니다. 법령에 따른 보관 의무가 있는 경우 해당 기간을 따릅니다.</p>
+        <p class="note">문의에는 앱 비밀번호, 백업 비밀번호, 건강 기록 또는 백업 파일을 첨부하지 마세요. 오류 설명에 개인정보가 포함된 경우 필요한 부분을 가려 주세요.</p>
+      </section>
+      <section id="changes">
+        <h2>8. 방침의 변경</h2>
+        <p>앱 기능이나 개인정보 처리 방식이 변경되면 이 페이지에 변경 내용과 시행일을 안내합니다.</p>
+        <p>현재 방침 시행일: <time datetime="2026-10-21">2026년 10월 21일</time></p>
+      </section>
+    </main>
+    <footer>© 2026 아메 · 하루 한 걸음 <span class="top"> · <a href="#top">맨 위로</a></span></footer>
+  </div>
+</body>
+</html>
